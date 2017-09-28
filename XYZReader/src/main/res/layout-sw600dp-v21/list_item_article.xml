@@ -53,11 +53,10 @@
 
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
-
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:padding="4dp"
+            android:scaleType="fitXY"
             android:layout_weight="1" />
     </LinearLayout>
 
