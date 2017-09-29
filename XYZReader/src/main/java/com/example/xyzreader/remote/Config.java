@@ -8,7 +8,7 @@ import java.net.URL;
 class Config {
     public static final URL BASE_URL;
     private static final String TAG = Config.class.toString();
-
+//for testing https://raw.githubusercontent.com/TNTest/xyzreader/master/data.json
     static {
         URL url = null;
         try {
